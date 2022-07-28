@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box;
 }
+
+.banner_height{
+    height:580px;
+}
 /* Courses Section Css  */
 /* .courses_content_wrap{
     height: 150px;
