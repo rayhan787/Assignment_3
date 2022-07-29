@@ -1,21 +1,139 @@
+/* Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 *{
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:600 ;
+}
+p{
+    font-weight: 400;
+}
+.menu li a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #777777;
+}
+.header_register_btn{
+    font-size: 20px;
+    font-weight: 600;
+    color:#289BDE ;
+    border: 1px solid #289BDE;
+    transition: all linear .4s;
+}
+.header_register_btn:hover{
+    background-color: #289BDE;
+    color: #fff;
+    border: 0;
+}
 .banner_height{
     height:580px;
 }
-/* Courses Section Css  */
-/* .courses_content_wrap{
-    height: 150px;
-}
-.courses_content_wrap .courses_img img{
-    width: 150px;
-    height: 150px;
-}
-.corses_content h5{
+.banner-heading button{
     font-size: 20px;
-} */
+    color: #ffffff;
+    background-color: #289BDE;
+    transition: all linear .4s;
+}
+.banner-heading button:hover{
+    color: #289BDE;
+    background-color: #fff;
+}
+.see_more_btn{
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #289BDE;
+    transition: all linear .4s;
+}
+.see_more_btn:hover{
+    color: #289BDE;
+    background-color: #fff;
+}
+.section_heading p{
+    font-size: 16px;
+    color: #777777;
+}
+.social-icon a{
+    text-decoration: none;
+}
+.social-icon .icon{
+    padding: 20px 10px;
+    font-size: 20px;
+    color: #F4F4F4;
+}
+@media only screen and (min-width:992px) {
+    /* Header Section start */
+    .logo a{
+        font-size: 40px;
+        color: #4A4A4A;
+    }
+
+    /* Header section End  */
+    /* Banner section start  */
+    .banner-heading h1{
+        font-size: 65px;
+    }
+    .banner-heading p{
+        font-size: 18px;
+        color: #F4F4F4;
+    }
+
+    /* Banner section ENd */
+    /* Our Courses Section Start  */
+    .section_heading h2{
+        font-size: 45px;
+        color: #1D1D1D;
+    }
+    .courses_content h5{
+        font-size: 22px;
+        color: #4A4A4A;
+    }
+    .courses_content p{
+        font-size: 16px;
+        color: #777777;
+    }
+        /* Our Courses Section End  */
+        /* responsive for tablet  */
+    @media only screen and (min-width:768px) and(max-width:991px){
+        .logo a{
+            font-size: 35px;
+            color: #4A4A4A;
+        }
+        .banner-heading h1{
+            font-size: 40px;
+        }
+        .section_heading h2{
+            font-size: 30px;
+            color: #777777;
+        }
+    }
+    /* responsive for mobile  */
+    @media only screen and (max-width:767px){
+        .logo a{
+            font-size: 20px;
+            color: #4A4A4A;
+        }
+        .banner-heading h1{
+            font-size: 20px;
+        }
+        .section_heading h2{
+            font-size: 20px;
+            color: #777777;
+        }
+        .courses_content h5{
+            font-size: 17px;
+            color: #4A4A4A;
+        }
+        .courses_content p{
+            font-size: 14px;
+            color: #777777;
+        }
+    }
+}
 
 
 
